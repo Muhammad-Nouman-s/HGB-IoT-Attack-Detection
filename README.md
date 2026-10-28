@@ -14,7 +14,7 @@ The paper proposes a three-phase framework for multi-class attack detection on t
 2. **Class balancing.** ADASYN oversampling followed by random undersampling (RUS) gives 47,002 samples per class.
 3. **Classification.** A Histogram Gradient Boosting (HGB) model is trained and compared with nine other models: SGD, Logistic Regression, Naive Bayes, LDA, QDA, AdaBoost, XGBoost, CatBoost and LightGBM.
 
-All code is in [`HGB_IoT_Attack_Detection.ipynb`](HGB_IoT_Attack_Detection.ipynb). The notebook keeps the outputs of the run used for the paper.
+All code is in [`HGB_IoT_Attack_Detection.ipynb`](HGB_IoT_Attack_Detection.ipynb). The notebook keeps the text outputs (metrics, classification reports, class counts) of the run used for the paper; the plots are in [`figures/`](figures/).
 
 ## Dataset
 
@@ -100,7 +100,7 @@ Notes:
 
 - The experiments were run on Google Colab. The notebook is tested with scikit-learn 1.6.1. Newer scikit-learn versions raise an error in QDA when a class covariance matrix is not full rank (which happens for the very small Brute Force class), so keep the pinned version.
 - Resampling is applied to the full dataset before the 70/30 split, as described in the paper.
-- The outputs saved in the notebook come from the same run as the paper. Logistic Regression shows a small difference in the fourth decimal (0.6525 vs 0.6529), and execution times vary between runs. The execution time figure uses the values reported in the paper.
+- The text outputs saved in the notebook come from the same run as the paper. Logistic Regression shows a small difference in the fourth decimal (0.6525 vs 0.6529), and execution times vary between runs. The execution time figure uses the values reported in the paper.
 
 ## Repository structure
 
