@@ -129,7 +129,6 @@ Notes:
 
 ## Contact
 
-Muhammad Nouman, Politecnico di Bari: m.nouman@phd.poliba.it
-[Website](https://muhammad-nouman-s.github.io/) | [Google Scholar](https://scholar.google.com/citations?user=ebfBz34AAAAJ)
+Muhammad Nouman, Politecnico di Bari. [Website](https://muhammad-nouman-s.github.io/)
 
 The code is released under the [MIT License](LICENSE). The CICIoT2023 dataset is subject to its own terms of use.
